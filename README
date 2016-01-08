@@ -1,8 +1,8 @@
-#MyQrCode
+# MyQrCode
 
 Is a web application to generate QR code static using Zxing library.
 
-#Maven
+# Maven
 
         <dependency>
             <groupId>net.glxn</groupId>
