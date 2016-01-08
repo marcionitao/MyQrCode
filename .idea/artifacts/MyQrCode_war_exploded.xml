@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyQrCode:war exploded">
+    <output-path>$PROJECT_DIR$/target/MyQrCode-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyQrCode" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: net.glxn:qrgen:1.4" />
+          <element id="library" level="project" name="Maven: com.google.zxing:core:2.0" />
+          <element id="library" level="project" name="Maven: com.google.zxing:javase:2.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/MyQrCode-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="MyQrCode/web/Web" />
+    </root>
+  </artifact>
+</component>
